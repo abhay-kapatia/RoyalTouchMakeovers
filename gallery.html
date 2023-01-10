@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="icon" href="assets/logo.jpg" type="image/icon type">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="gallery.css">
+    <script src="gallery.js"></script>
+    <title>Royal Touch</title>
+</head>
+<body>
+    <div class="topnav">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light " id="navbar">
+            <a class="navbar-brand text-light" href="index.html"><img class="logonav" src="assets/logo1.png" alt="">  Royal Touch</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link text-light" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="about.html">About</a>
+                </li>
+                <!-- <li class="nav-item">
+                  <a class="nav-link text-light" href="#">Courses</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light" href="#">Services</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="gallery.html">Gallery</a>
+                  </li>
+              </ul>
+            </div>
+        </nav>
+    <div style="display:none;">
+        <div id="ninja-slider">
+            <div class="slider-inner1">
+                <ul>
+                    <li>
+                        <a class="ns-img" href="gallery/bridal/b1.JPG"></a>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="gallery/bridal/b2.JPG"></a>
+                    </li>
+                    <li>
+                        <span class="ns-img" style="background-image:url(gallery/bridal/b3.JPG);"></span>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="gallery/bridal/b4.JPG"></a>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="gallery/bridal/b5.JPG"></a>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="gallery/bridal/b6.JPG"></a>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="gallery/bridal/b7.jpg"></a>
+                    </li>
+                    <li>
+                        <span class="ns-img" style="background-image:url(gallery/bridal/b8.jpg);"></span>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="gallery/bridal/b9.jpg"></a>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="gallery/bridal/b0.jpg"></a>
+                    </li>
+                    <!-- travel -->
+                    <li>
+                        <a class="ns-img" href="gallery/party/p0.jpg"></a>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="gallery/party/p1.jpg"></a>
+                    </li>
+                    <li>
+                        <span class="ns-img" style="background-image:url(gallery/party/p2.jpg);"></span>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="gallery/party/p3.jpg"></a>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="gallery/party/p4.jpg"></a>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="gallery/party/p5.jpg"></a>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="gallery/party/p6.jpg"></a>
+                    </li>
+                    <li>
+                        <span class="ns-img" style="background-image:url(gallery/party/p7.jpg);"></span>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="gallery/party/p8.jpg"></a>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="gallery/party/p9.jpg"></a>
+                    </li>
+
+                    <!-- astro -->
+                    <li>
+                        <a class="ns-img" href="gallery/hair/h0.jpg"></a>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="gallery/hair/h1.jpg"></a>
+                    </li>
+                    <li>
+                        <span class="ns-img" style="background-image:url(gallery/hair/h2.jpg);"></span>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="gallery/hair/h3.jpg"></a>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="gallery/hair/h4.jpg"></a>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="gallery/hair/h5.jpg"></a>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="gallery/hair/h6.jpg"></a>
+                    </li>
+                    <li>
+                        <span class="ns-img" style="background-image:url(gallery/hair/h7.jpg);"></span>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="gallery/hair/h8.jpg"></a>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="gallery/hair/h9.jpg"></a>
+                    </li>
+                    <li>
+                        <a class="ns-img" href="gallery/hair/h9.jpg"></a>
+                    </li>
+                </ul>
+                <div id="fsBtn" class="fs-icon" title="Expand/Close"></div>
+            </div>
+        </div>
+    </div>
+    <center>
+        <h1 class="p_heading">PORTFOLIO</h1>
+    </center>
+    <div class="cont">
+        <center>
+            <h1 class="p_InnerHeading">BRIDAL</h1>
+        </center>
+        <div class="gallery">
+            <center>
+                <img src="gallery/bridal/b1.JPG" onclick="lightbox(0)" class="pik">
+                <img src="gallery/bridal/b2.JPG" onclick="lightbox(1)" class="pik">
+                <img src="gallery/bridal/b3.JPG" onclick="lightbox(2)" class="pik">
+                <img src="gallery/bridal/b4.JPG" onclick="lightbox(3)" class="pik">
+                <img src="gallery/bridal/b5.JPG" onclick="lightbox(4)" class="pik">
+                <img src="gallery/bridal/b6.jpg" onclick="lightbox(5)" class="pik">
+                <img src="gallery/bridal/b7.jpg" onclick="lightbox(6)" class="pik">
+                <img src="gallery/bridal/b8.jpg" onclick="lightbox(7)" class="pik">
+                <img src="gallery/bridal/b9.JPG" onclick="lightbox(8)" class="pik">
+                <img src="gallery/bridal/b0.jpg" onclick="lightbox(9)" class="pik">
+            </center>
+
+        </div>
+    </div>
+
+
+
+    <div class="cont1">
+        <center>
+            <h1 class="p_InnerHeading">PARTY MAKEUP</h1>
+        </center>
+        <div class="gallery">
+            <center>
+                <img src="gallery/party/p0.jpg" onclick="lightbox(10)" class="pik">
+                <img src="gallery/party/p1.jpg" onclick="lightbox(11)" class="pik">
+                <img src="gallery/party/p2.jpg" onclick="lightbox(12)" class="pik">
+                <img src="gallery/party/p3.jpg" onclick="lightbox(13)" class="pik">
+                <img src="gallery/party/p4.jpg" onclick="lightbox(14)" class="pik">
+                <img src="gallery/party/p5.jpg" onclick="lightbox(15)" class="pik">
+                <img src="gallery/party/p6.jpg" onclick="lightbox(16)" class="pik">
+                <img src="gallery/party/p7.jpg" onclick="lightbox(17)" class="pik">
+                <img src="gallery/party/p8.jpg" onclick="lightbox(18)" class="pik">
+                <img src="gallery/party/p9.jpg" onclick="lightbox(19)" class="pik">
+            </center>
+
+        </div>
+    </div>
+
+    <div class="cont1">
+        <center>
+            <h1 class="p_InnerHeading">HAIRS</h1>
+        </center>
+        <div class="gallery">
+            <center>
+                <img src="gallery/hair/h0.jpg" onclick="lightbox(20)" class="pik">
+                <img src="gallery/hair/h1.jpg" onclick="lightbox(21)" class="pik">
+                <img src="gallery/hair/h2.jpg" onclick="lightbox(22)" class="pik">
+                <img src="gallery/hair/h3.jpg" onclick="lightbox(23)" class="pik">
+                <img src="gallery/hair/h4.jpg" onclick="lightbox(24)" class="pik">
+                <img src="gallery/hair/h5.jpg" onclick="lightbox(25)" class="pik">
+                <img src="gallery/hair/h6.jpg" onclick="lightbox(26)" class="pik">
+                <img src="gallery/hair/h7.jpg" onclick="lightbox(27)" class="pik">
+                <img src="gallery/hair/h8.jpg" onclick="lightbox(28)" class="pik">
+                <img src="gallery/hair/h9.jpg" onclick="lightbox(29)" class="pik">
+            </center>
+
+        </div>
+    </div>
+
+    <!-- <div class="link_div">
+        <ul class="links">
+            <li>
+                <a class="in_link" href="wildlife.html">wildlife</a>
+            </li>
+            <li>
+                <a class="in_link" href="travel.html">travel</a>
+            </li>
+            <li>
+                <a class="in_link" href="astro.html">astro</a>
+            </li>
+            <li>
+                <a class="in_link" href="wildlife.html">street</a>
+            </li>
+            <li>
+                <a class="in_link" href="wildlife.html">architecture</a>
+            </li>
+            <li>
+                <a class="in_link" href="wildlife.html">nature</a>
+            </li>
+            <li>
+                <a class="in_link" href="wildlife.html">portrait</a>
+            </li>
+            <li>
+                <a class="in_link" href="wildlife.html">food</a>
+            </li>
+            <li>
+                <a class="in_link" href="wildlife.html">product</a>
+            </li>
+            <li>
+                <a class="in_link" href="wildlife.html">miscellaneous</a>
+            </li>
+        </ul>
+    </div> -->
+    
+
+
+</body>
+
+</html>
